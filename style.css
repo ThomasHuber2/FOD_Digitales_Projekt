@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+}
+.instructions {
+    color: yellowgreen;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: yellowgreen;
+}
+
+.image {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.image img {
+    max-width: 200px;
+    max-height: 120px;
+}
+
+.caption {
+    text-align: center;
+}
+
+.detail {
+    display: none;
+    padding: 20px;
+}
+
+.detail img {
+    display: flex;
+    max-width: 70%;
+    max-height: 1080px;
+    margin: 0 auto;
+}
+
+.description {
+    margin-top: 20px;
+    text-align: center;
+    color: yellowgreen;
+}
+table {
+    padding: 10px;
+}
+th {
+    padding: 20px;
+}

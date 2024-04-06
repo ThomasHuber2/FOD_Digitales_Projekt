@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bildergalerie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="instructions">
+    <p>Willkommen zur Bildergalerie! Klicken Sie auf ein Bild, um mehr Details zu sehen.<br>Die Bilder in der Galerie sind unbearbeitete JPG Dateien, die Detailbilder sind teilweise zugeschnittene PNG Dateien</p>
+</div>
+<!-- Startseite mit Vorschau der Bilder -->
+<div class="gallery">
+    <div class="image" onclick="showDetail('bild1')">
+        <img src="Bilder/img/DSC_0059.JPG" alt="Sternschablone"/>
+        <div class="caption">Sternschablone</div>
+    </div>
+    <div class="image" onclick="showDetail('bild2')">
+        <img src="Bilder/img/DSC_0061.JPG" alt="Zugeschnittenes Blech"/>
+        <div class="caption">Zugeschnittenes Blech</div>
+    </div>
+    <div class="image" onclick="showDetail('bild3')">
+        <img src="Bilder/img/DSC_0062.JPG" alt="Blechbearbeitung am Amboss"/>
+        <div class="caption">Blechbearbeitung am Amboss</div>
+    </div>
+    <div class="image" onclick="showDetail('bild4')">
+        <img src="Bilder/img/DSC_0364.JPG" alt="Hahn"/>
+        <div class="caption">Hahn</div>
+    </div>
+    <div class="image" onclick="showDetail('bild5')">
+        <img src="Bilder/img/DSC_0117.JPG" alt="Schweißen"/>
+        <div class="caption">Schweißen</div>
+    </div>
+    <div class="image" onclick="showDetail('bild6')">
+        <img src="Bilder/img/DSC_0132.JPG" alt="Halbfertige Sterne"/>
+        <div class="caption">Halbfertige Sterne</div>
+    </div>
+    <div class="image" onclick="showDetail('bild7')">
+        <img src="Bilder/img/DSC_0428.JPG" alt="Polina"/>
+        <div class="caption">Polina</div>
+    </div>
+    <div class="image" onclick="showDetail('bild8')">
+        <img src="Bilder/img/DSC_0147.JPG" alt="Metall Würfel"/>
+        <div class="caption">Metall Würfel</div>
+    </div>
+    <div class="image" onclick="showDetail('bild9')">
+        <img src="Bilder/img/DSC_0537.JPG" alt="Unveredeltes Projekt"/>
+        <div class="caption">Unveredeltes Projekt</div>
+    </div>
+    <div class="image" onclick="showDetail('bild0')">
+        <img src="Bilder/img/DSC_0001.JPG" alt="Vollendetes Projekt"/>
+        <div class="caption">Vollendetes Projekt</div>
+    </div>
+    <!-- Weitere Bilder hier einfügen -->
+</div>
+
+<!-- Detailseite für jedes Bild -->
+<div class="detail" id="bild1Detail">
+    <img src="Bilder/raw/DSC_0059.png" alt="Sternschablone"/>
+    <div class="description">
+        <h2>Sternschablone</h2>
+        <p>Der erste Schritt, als ich mit dem Fotobox-Projekt begonnen habe, war es eine geeignete Schablone mit einem Radius anzufertigen.</p>
+        <p>Es recht früh morgens als dieses Bild entstanden ist. Die aufgehende Sonne wirft ein perfektes Licht in die unbeleuchtete Werkstatt, die Kameraeinstellungen sorgen für dieses spektakuläre Ergebnis. Das Bild wurde nicht nachbearbeitet.</p>
+        <table class="tg">
+            <tr>
+                <th class="tg-031e">Einstellung</th>
+                <th class="tg-031e">ISO</th>
+                <th class="tg-031e">Blende</th>
+                <th class="tg-031e">Belichtungszeit</th>
+                <th class="tg-031e">Objektiv</th>
+                <th class="tg-031e">Kamera</th>
+            </tr>
+            <tr>
+                <td class="tg-031e">Wert</td>
+                <td class="tg-031e">400</td>
+                <td class="tg-031e">F3,5</td>
+                <td class="tg-031e">1/500 s</td>
+                <td class="tg-031e">18-55 mm</td>
+                <td class="tg-031e">Nikon D3400</td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="detail" id="bild2Detail">
+    <img src="Bilder/raw/DSC_0061.png" alt="Zugeschnittenes Blech"/>
+    <div class="description">
+        <h2>Zugeschnittenes Blech</h2>
+        <p>Nach dem Berechnen der richtigen Blechüberstände die man braucht, um die Form zu erhalten, wurde die erste fertige Form ausgeschnitten.</p>
+        <p>im direkten Vergleich zum ersten Bild, dass etwa 30 Minuten zuvor gemacht wurde, ist nu das Licht der werkstatt eingeschalten. Durch die Anpassung der Einstellungen auf das bedeutend hellere Motiv und dem zusätzlichen Licht erhält man dan dieses fast perfekte raw Bild welches ich digital nur nch etwas zu geschnitten und gedreht habe.</p>
+        <table class="tg">
+            <tr>
+                <th class="tg-031e">Einstellung</th>
+                <th class="tg-031e">ISO</th>
+                <th class="tg-031e">Blende</th>
+                <th class="tg-031e">Belichtungszeit</th>
+                <th class="tg-031e">Objektiv</th>
+                <th class="tg-031e">Kamera</th>
+            </tr>
+            <tr>
+                <td class="tg-031e">Wert</td>
+                <td class="tg-031e">800</td>
+                <td class="tg-031e">F 3,5</td>
+                <td class="tg-031e">1/50 s</td>
+                <td class="tg-031e">18-55 mm</td>
+                <td class="tg-031e">Nikon D3400</td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="detail" id="bild3Detail">
+    <img src="Bilder/raw/DSC_0062.png" alt="Blechbearbeitung am Amboss"/>
+    <div class="description">
+        <h2>Blechbearbeitung am Amboss</h2>
+        <p>Die Mittagssonne und die aufgebrochene Wolkendecke ermöglichen diesen einzigartigen Shot. Durch die Schatten kann man erkennen, dass die Sonne die einzige Lichtquelle ist, die durch das einzige Fenster des Raumes scheint.</p>
+        <p>Durch die Kürze des Moments war kein leichtes Unterfangen ein perfektes Foto zu machen. Selbst durch Zuschneiden war es schwer eine ordentliche Geometrie zu finden.</p>
+        <table class="tg">
+            <tr>
+                <th class="tg-031e">Einstellung</th>
+                <th class="tg-031e">ISO</th>
+                <th class="tg-031e">Blende</th>
+                <th class="tg-031e">Belichtungszeit</th>
+                <th class="tg-031e">Objektiv</th>
+                <th class="tg-031e">Kamera</th>
+            </tr>
+            <tr>
+                <td class="tg-031e">Wert</td>
+                <td class="tg-031e">800</td>
+                <td class="tg-031e">F 3,5</td>
+                <td class="tg-031e">1/25 s</td>
+                <td class="tg-031e">18-55 mm</td>
+                <td class="tg-031e">Nikon D3400</td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="detail" id="bild4Detail">
+    <img src="Bilder/raw/DSC_0364.png" alt="Hahn"/>
+    <div class="description">
+        <h2>Hahn</h2>
+        <p>Dieses Bild stammt von der zweiten Einheit Fotodesign. Es hat lang gedauert bis der Hahn in die Reichweite meines Zooms kam. Das Warten hat sich gelohnt</p>
+        <p>Die Herausforderung hierbei liegt in der Geduld den richtigen Augenblick zu treffen. Das ursprüngliche Bild wurde geringfügig gedreht und zugeschnitten</p>
+        <table class="tg">
+            <tr>
+                <th class="tg-031e">Einstellung</th>
+                <th class="tg-031e">ISO</th>
+                <th class="tg-031e">Blende</th>
+                <th class="tg-031e">Belichtungszeit</th>
+                <th class="tg-031e">Objektiv</th>
+                <th class="tg-031e">Kamera</th>
+            </tr>
+            <tr>
+                <td class="tg-031e">Wert</td>
+                <td class="tg-031e">200</td>
+                <td class="tg-031e">F 5,6</td>
+                <td class="tg-031e">1/125 s</td>
+                <td class="tg-031e">18-55 mm</td>
+                <td class="tg-031e">Nikon D3400</td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="detail" id="bild5Detail">
+    <img src="Bilder/raw/DSC_0117.png" alt="Schweißen"/>
+    <div class="description">
+        <h2>Schweißen</h2>
+        <p>Das einzige Bild, auf dem ich weder handwerklich aktiv bin, noch die Kamera bedient habe. Die Idee stammt von meinem Onkel, er war der Meinung man kann keine guten Fotos beim Schweißen machen, also wurde experimentiert.</p>
+        <p>Die Kamera ist von mir voreingestellt auf einem Stativ befestigt, durch einen zeitgebundenen Selbstauslöser konnte ich dieses Foto machen, ohne dabei meine Augen der Gefahr des Lichtbogens auszusetzen. Um dem Objektiv und der Kamera ebenfalls keine Schäden zuzufügen habe ich mich dazu entschieden ein Objektiv mit viel mehr Zoom und einem erheblich größeren Abstand von etwa 15 Meter zu nutzen. Das Bild wurde nur zugeschnitten</p>
+        <table class="tg">
+            <tr>
+                <th class="tg-031e">Einstellung</th>
+                <th class="tg-031e">ISO</th>
+                <th class="tg-031e">Blende</th>
+                <th class="tg-031e">Belichtungszeit</th>
+                <th class="tg-031e">Objektiv</th>
+                <th class="tg-031e">Kamera</th>
+            </tr>
+            <tr>
+                <td class="tg-031e">Wert</td>
+                <td class="tg-031e">200</td>
+                <td class="tg-031e">F 4,8</td>
+                <td class="tg-031e">1/60 s</td>
+                <td class="tg-031e">70-300 mm</td>
+                <td class="tg-031e">Nikon D3400</td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="detail" id="bild6Detail">
+    <img src="Bilder/raw/DSC_0132.png" alt="Halbfertige Sterne"/>
+    <div class="description">
+        <h2>Halbfertige Sterne</h2>
+        <p>Ein weiterer Zwischenstand des Projektes, es ist der zweite Arbeitstag daran und es beginnt die Serienfertigung um ein etwas schnelleres vorankommen zu ermöglichen</p>
+        <p>Das Licht der Neonröhren geben zufällig die richtige Belichtung für dieses Foto. Heute ist mir bewusst wie viel Glück ich bei diesem Bild hatte, dass man die Zinkstruktur so gut erkennen kann. Das Bild ist unbearbeitet</p>
+        <table class="tg">
+            <tr>
+                <th class="tg-031e">Einstellung</th>
+                <th class="tg-031e">ISO</th>
+                <th class="tg-031e">Blende</th>
+                <th class="tg-031e">Belichtungszeit</th>
+                <th class="tg-031e">Objektiv</th>
+                <th class="tg-031e">Kamera</th>
+            </tr>
+            <tr>
+                <td class="tg-031e">Wert</td>
+                <td class="tg-031e">200</td>
+                <td class="tg-031e">F 4,5</td>
+                <td class="tg-031e">1/25 s</td>
+                <td class="tg-031e">18-55 mm</td>
+                <td class="tg-031e">Nikon D3400</td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="detail" id="bild7Detail">
+    <img src="Bilder/raw/DSC_0428.png" alt="Polina"/>
+    <div class="description">
+        <h2>Polina</h2>
+        <p>Das für mich schönste Bild das im zuge des Kurses entstanden ist. Man kann die Dynamik an Polinas Arm und die unschärfe sehr gut erkennen, jedoch ist der Fokus auf ihre Augen gerichtet und dadurch scharfgestellt<p>
+        <p>Durch die vielen bewegungen und den erwünschten effekt der verschwimmenden Folie, war es schwierig den Menschen scharf zu bekommen. Es war keine Nachbearbeitung nötig</p>
+        <table class="tg">
+            <tr>
+                <th class="tg-031e">Einstellung</th>
+                <th class="tg-031e">ISO</th>
+                <th class="tg-031e">Blende</th>
+                <th class="tg-031e">Belichtungszeit</th>
+                <th class="tg-031e">Objektiv</th>
+                <th class="tg-031e">Kamera</th>
+            </tr>
+            <tr>
+                <td class="tg-031e">Wert</td>
+                <td class="tg-031e">400</td>
+                <td class="tg-031e">F 5,6</td>
+                <td class="tg-031e">1/400 s</td>
+                <td class="tg-031e">18-55 mm</td>
+                <td class="tg-031e">Nikon D3400</td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="detail" id="bild8Detail">
+    <img src="Bilder/raw/DSC_0147.png" alt="Metallwürfel"/>
+    <div class="description">
+        <h2>Metallwürfel</h2>
+        <p>Das Bild ist aus einem Experiment zur Tiefenschärfe, entstanden. Mein bestreben, war es herauszufinden wie feinfühlig ich Objekte verschieben kann, um nur eines davon scharfgestellt zu haben.</p>
+        <p>Das Licht kommt sowohl vom Raum selbst als auch von draußen durch das Fenster, das hinter den Würfel ist. Ich habe beim Bearbeiten bewusst die Lichtquelle links oben beibehalten, um ein Detail in den eintönigen Hintergrund zu bekommen.</p>
+        <table class="tg">
+            <tr>
+                <th class="tg-031e">Einstellung</th>
+                <th class="tg-031e">ISO</th>
+                <th class="tg-031e">Blende</th>
+                <th class="tg-031e">Belichtungszeit</th>
+                <th class="tg-031e">Objektiv</th>
+                <th class="tg-031e">Kamera</th>
+            </tr>
+            <tr>
+                <td class="tg-031e">Wert</td>
+                <td class="tg-031e">200</td>
+                <td class="tg-031e">F 5,6</td>
+                <td class="tg-031e">1/13 s</td>
+                <td class="tg-031e">18-55 mm</td>
+                <td class="tg-031e">Nikon D3400</td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="detail" id="bild9Detail">
+    <img src="Bilder/raw/DSC_0537.png" alt="Unveredeltes Projekt"/>
+    <div class="description">
+        <h2>Unveredeltes Projekt</h2>
+        <p>Bei diesem Foto habe ich gelernt, dass man metallische Oberflächen überbelichten muss um sie gut fotografieren zu können.</p>
+        <p>Ein perfektes Foto in einer Lichtbox mit einem Objektiv mit einer festen Brennweite, für mich mehrere neue Erfahrungen in einem. Das Bild wurde nur geringfügig zugeschnitten.</p>
+        <table class="tg">
+            <tr>
+                <th class="tg-031e">Einstellung</th>
+                <th class="tg-031e">ISO</th>
+                <th class="tg-031e">Blende</th>
+                <th class="tg-031e">Belichtungszeit</th>
+                <th class="tg-031e">Objektiv</th>
+                <th class="tg-031e">Kamera</th>
+            </tr>
+            <tr>
+                <td class="tg-031e">Wert</td>
+                <td class="tg-031e">400</td>
+                <td class="tg-031e">F 14</td>
+                <td class="tg-031e">1/80 s</td>
+                <td class="tg-031e">50 mm</td>
+                <td class="tg-031e">Nikon D3400</td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="detail" id="bild0Detail">
+    <img src="Bilder/raw/DSC_0001.png" alt="Vollendetes Projekt"/>
+    <div class="description">
+        <h2>Vollendetes Projekt</h2>
+        <p>Behamberg, Blickrichtung Mostviertel, im Fokus das fertige Projekt. Im Hintergrund Blicke, Gemurmel und die Frage für wie viel Geld man das kaufen kann.</p>
+        <p>Als Abschluss, des Fotodesign Kurs, ein Bild, in dem ich alles Gelernte beachtet habe und durch einen kleinen Zuschnitt gekrönt habe.</p>
+        <table class="tg">
+            <tr>
+                <th class="tg-031e">Einstellung</th>
+                <th class="tg-031e">ISO</th>
+                <th class="tg-031e">Blende</th>
+                <th class="tg-031e">Belichtungszeit</th>
+                <th class="tg-031e">Objektiv</th>
+                <th class="tg-031e">Kamera</th>
+            </tr>
+            <tr>
+                <td class="tg-031e">Wert</td>
+                <td class="tg-031e">200</td>
+                <td class="tg-031e">F 6.3</td>
+                <td class="tg-031e">1/2500 s</td>
+                <td class="tg-031e">18-55 mm</td>
+                <td class="tg-031e">Nikon D3400</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<!-- Weitere Detailseiten hier einfügen -->
+
+<script>
+    function showDetail(id) {
+        // Alle Detailcontainer ausblenden
+        const details = document.querySelectorAll('.detail');
+        details.forEach(function(detail) {
+            detail.style.display = 'none';
+        });
+
+        // Detailcontainer des ausgewählten Bildes anzeigen
+        const detail = document.getElementById(id + 'Detail');
+        detail.style.display = 'block';
+    }
+</script>
+
+</body>
+</html>
